@@ -17,5 +17,6 @@ class Stack
   end
 
   def pop
+    @stack.pop
   end
 end

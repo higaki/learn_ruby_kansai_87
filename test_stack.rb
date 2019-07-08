@@ -37,21 +37,10 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> ..F
-# >> ===============================================================================
-# >> Failure: test_pop_by_2_elements(TestStack)
-# >> -:32:in `test_pop_by_2_elements'
-# >> <:ALFA> expected but was
-# >> <:BRAVO>
-# >> 
-# >> diff:
-# >> ? :  ALFA
-# >> ?  BR VO 
-# >> ===============================================================================
-# >> ..
-# >> Finished in 0.006416 seconds.
+# >> .....
+# >> Finished in 0.000612 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 5 tests, 7 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 80% passed
+# >> 5 tests, 9 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 100% passed
 # >> -------------------------------------------------------------------------------
-# >> 779.30 tests/s, 1091.02 assertions/s
+# >> 8169.93 tests/s, 14705.88 assertions/s
