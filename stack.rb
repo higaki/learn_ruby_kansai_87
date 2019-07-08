@@ -11,4 +11,7 @@ class Stack
     @stack << o
     self
   end
+
+  def size
+  end
 end
