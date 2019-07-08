@@ -4,7 +4,7 @@ class Stack
   end
 
   def empty?
-    true
+    @stack.empty?
   end
 
   def push(o)

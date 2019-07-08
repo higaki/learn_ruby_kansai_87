@@ -18,15 +18,10 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> .F
-# >> ===============================================================================
-# >> Failure: test_empty_by_nonempty(TestStack): <true> is neither nil or false.
-# >> -:15:in `test_empty_by_nonempty'
-# >> ===============================================================================
-# >> 
-# >> Finished in 0.005144 seconds.
+# >> ..
+# >> Finished in 0.000413 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 2 tests, 2 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 50% passed
+# >> 2 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 100% passed
 # >> -------------------------------------------------------------------------------
-# >> 388.80 tests/s, 388.80 assertions/s
+# >> 4842.62 tests/s, 4842.62 assertions/s
