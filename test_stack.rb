@@ -18,14 +18,26 @@ class TestStack < Test::Unit::TestCase
   def test_size_by_empty
     assert_equal 0, @stack.size
   end
+
+  def test_size_by_nonempty
+    @stack.push :anyone
+    assert_equal 1, @stack.size
+  end
 end
 
 # >> Loaded suite -
 # >> Started
-# >> ...
-# >> Finished in 0.000511 seconds.
+# >> ...F
+# >> ===============================================================================
+# >> Failure: test_size_by_nonempty(TestStack)
+# >> -:24:in `test_size_by_nonempty'
+# >> <1> expected but was
+# >> <0>
+# >> ===============================================================================
+# >> 
+# >> Finished in 0.004649 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 3 tests, 3 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 100% passed
+# >> 4 tests, 4 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 75% passed
 # >> -------------------------------------------------------------------------------
-# >> 5870.84 tests/s, 5870.84 assertions/s
+# >> 860.40 tests/s, 860.40 assertions/s
