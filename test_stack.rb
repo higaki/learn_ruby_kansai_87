@@ -43,14 +43,25 @@ class TestStack < Test::Unit::TestCase
     assert_equal 0, @stack.size
     assert @stack.empty?
   end
+
+  def test_pop_by_empty
+    assert_raise(Stack::EmptyStackError) do
+      @stack.pop
+    end
+  end
 end
 
 # >> Loaded suite -
 # >> Started
-# >> ......
-# >> Finished in 0.000883 seconds.
+# >> ....F
+# >> ===============================================================================
+# >> Failure: test_pop_by_empty(TestStack): <Stack::EmptyStackError> must be a subclass of Exception, an object of Exception subclasses or a Module.
+# >> -:48:in `test_pop_by_empty'
+# >> ===============================================================================
+# >> ..
+# >> Finished in 0.004441 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 6 tests, 14 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 100% passed
+# >> 7 tests, 15 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 85.7143% passed
 # >> -------------------------------------------------------------------------------
-# >> 6795.02 tests/s, 15855.04 assertions/s
+# >> 1576.22 tests/s, 3377.62 assertions/s

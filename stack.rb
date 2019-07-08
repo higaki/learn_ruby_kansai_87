@@ -16,6 +16,8 @@ class Stack
     @stack.size
   end
 
+  class EmptyStackError < RuntimeError; end
+
   def pop
     @stack.pop
   end
