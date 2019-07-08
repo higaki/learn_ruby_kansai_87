@@ -13,6 +13,6 @@ class Stack
   end
 
   def size
-    0
+    @stack.size
   end
 end

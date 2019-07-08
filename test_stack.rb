@@ -27,17 +27,10 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> ...F
-# >> ===============================================================================
-# >> Failure: test_size_by_nonempty(TestStack)
-# >> -:24:in `test_size_by_nonempty'
-# >> <1> expected but was
-# >> <0>
-# >> ===============================================================================
-# >> 
-# >> Finished in 0.004649 seconds.
+# >> ....
+# >> Finished in 0.000521 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 4 tests, 4 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 75% passed
+# >> 4 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 100% passed
 # >> -------------------------------------------------------------------------------
-# >> 860.40 tests/s, 860.40 assertions/s
+# >> 7677.54 tests/s, 7677.54 assertions/s
