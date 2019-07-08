@@ -15,4 +15,7 @@ class Stack
   def size
     @stack.size
   end
+
+  def pop
+  end
 end
