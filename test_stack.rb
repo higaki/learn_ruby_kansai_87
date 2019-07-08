@@ -9,14 +9,24 @@ class TestStack < Test::Unit::TestCase
   def test_empty_by_empty
     assert @stack.empty?
   end
+
+  def test_empty_by_nonempty
+    @stack.push :anyone
+    refute @stack.empty?
+  end
 end
 
 # >> Loaded suite -
 # >> Started
-# >> .
-# >> Finished in 0.000372 seconds.
+# >> .F
+# >> ===============================================================================
+# >> Failure: test_empty_by_nonempty(TestStack): <true> is neither nil or false.
+# >> -:15:in `test_empty_by_nonempty'
+# >> ===============================================================================
+# >> 
+# >> Finished in 0.005144 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 100% passed
+# >> 2 tests, 2 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 50% passed
 # >> -------------------------------------------------------------------------------
-# >> 2688.17 tests/s, 2688.17 assertions/s
+# >> 388.80 tests/s, 388.80 assertions/s

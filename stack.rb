@@ -6,4 +6,9 @@ class Stack
   def empty?
     true
   end
+
+  def push(o)
+    @stack << o
+    self
+  end
 end
