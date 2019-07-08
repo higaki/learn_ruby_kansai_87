@@ -13,15 +13,15 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> E
+# >> F
 # >> ===============================================================================
-# >> Error: test_empty_by_empty(TestStack): NoMethodError: undefined method `empty?' for #<Stack:0x00007f88f100d0d0 @stack=[]>
+# >> Failure: test_empty_by_empty(TestStack): <nil> is not true.
 # >> -:10:in `test_empty_by_empty'
 # >> ===============================================================================
 # >> 
-# >> Finished in 0.000959 seconds.
+# >> Finished in 0.009484 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 1 tests, 0 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 1 tests, 1 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 # >> 0% passed
 # >> -------------------------------------------------------------------------------
-# >> 1042.75 tests/s, 0.00 assertions/s
+# >> 105.44 tests/s, 105.44 assertions/s
