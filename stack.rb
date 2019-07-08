@@ -19,6 +19,7 @@ class Stack
   class EmptyStackError < RuntimeError; end
 
   def pop
+    raise EmptyStackError if empty?
     @stack.pop
   end
 end

@@ -53,15 +53,10 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> ....F
-# >> ===============================================================================
-# >> Failure: test_pop_by_empty(TestStack): <Stack::EmptyStackError> must be a subclass of Exception, an object of Exception subclasses or a Module.
-# >> -:48:in `test_pop_by_empty'
-# >> ===============================================================================
-# >> ..
-# >> Finished in 0.004441 seconds.
+# >> .......
+# >> Finished in 0.001001 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 7 tests, 15 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 85.7143% passed
+# >> 7 tests, 15 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 100% passed
 # >> -------------------------------------------------------------------------------
-# >> 1576.22 tests/s, 3377.62 assertions/s
+# >> 6993.01 tests/s, 14985.01 assertions/s
