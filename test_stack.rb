@@ -22,17 +22,10 @@ end
 
 # >> Loaded suite -
 # >> Started
-# >> ..F
-# >> ===============================================================================
-# >> Failure: test_size_by_empty(TestStack)
-# >> -:19:in `test_size_by_empty'
-# >> <0> expected but was
-# >> <nil>
-# >> ===============================================================================
-# >> 
-# >> Finished in 0.004808 seconds.
+# >> ...
+# >> Finished in 0.000511 seconds.
 # >> -------------------------------------------------------------------------------
-# >> 3 tests, 3 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-# >> 66.6667% passed
+# >> 3 tests, 3 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+# >> 100% passed
 # >> -------------------------------------------------------------------------------
-# >> 623.96 tests/s, 623.96 assertions/s
+# >> 5870.84 tests/s, 5870.84 assertions/s
